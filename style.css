@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cantata+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+
+
+@media {
+html {
+	background: url('https://media.redadn.es/imagenes/call-of-duty-infinite-warfare-pc-playstation-4-xbox-one_293622.jpg') no-repeat center center fixed;
+	background-size: cover;
+	-moz - background-size: cover;
+    -webkit - background-size: cover;
+    -o - background-size: cover;
+}
+
+.container {
+	min-width: 500px;
+	font-family: 'Cantata One', serif;
+	background-color: black;
+	border: 5px solid #ffe268;
+	color: #ffb037;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 25px;
+	margin-right: 25px;
+	opacity: 0.8;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.sub-container {
+	width: 100%;
+	min-width: 500px;
+	display: flex;
+}
+
+h1 {
+	min-width: 400px;
+	font-family: 'Bungee Inline', cursive;
+	font-size: 3em;
+	text-shadow: 4px 4px 4px #000;
+}
+
+h2 {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+
+img {
+	width: 250px;
+	height: 120px;
+	display: block;
+	margin: auto;
+
+}
+
+header {
+	min-width: 400px;
+	background-color: #2f5d62;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	padding: 5px 10px;
+	margin-bottom: 0px !important;
+}
+
+nav {
+	font-family: 'Libre Baskerville', serif;
+	background-color: #364547;
+	width: 100%;
+	padding: 0;
+	float: none;
+}
+
+a {
+	width: 200px;
+	min-width: 100px;
+	display: inline-block;
+	text-decoration: none;
+	float: left;
+	text-align: center;
+	color:orange;
+	padding: 10px 20px 10px 20px;
+}
+
+a:hover {
+	width: 200px;
+	min-width: 100px;
+	display: inline-block;
+	float: left;
+	text-align: center;
+	padding: 10px 20px 10px 20px;
+	background-color:#ffb037;
+	color: #000;
+}
+
+.link_rrss {
+	font-size: 6em;
+	width: 100px;
+	height: 100px;
+	min-width: 100px;
+	display: inline-block;
+	text-decoration: none;
+	float: left;
+	text-align: center;
+	color:#2f5d62;
+	padding: 10px 20px 10px 20px;
+}
+
+.link_rrss:hover {
+	font-size: 6em;
+	width: 100px;
+	height: 100px;
+	min-width: 100px;
+	display: inline-block;
+	float: left;
+	text-align: center;
+	padding: 10px 20px 10px 20px;
+	background-color:#364547;
+	color: #000;
+}
+
+.nav-menu {
+	float: right;
+}
+
+aside {
+	min-width: 200px;
+	background-color: #ffe268;
+	border: 2px solid #2f5d62;
+	color: #000;
+	flex-basis: 400px;
+}
+
+section {
+	width: 100%;
+	flex-wrap: wrap;
+	min-width: 300px;
+	background-color: #ffe268;
+	border: 2px solid #2f5d62;
+	color: #000;
+	padding: 0px 5px 3px 5px;
+}
+
+article {
+	background-color: white;
+	border: 3px solid #000;
+}
+
+footer {
+	width: 100%;
+	background-color: #ffb037;
+	color: #000;
+	text-align: center;
+}
+
+i {
+	padding-right: 10px;
+}
+
+.texto_one {
+	padding: 0px 5px 0px 5px;
+	text-align: justify;
+}
+}
